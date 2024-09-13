@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#2B5087</color>
+    <color name="blueMax">#2662FF</color>
+    <color name="btnBlueMax">#448AFF</color>
+    <color name="playBlueMax">#82B1FF</color>
 </resources>

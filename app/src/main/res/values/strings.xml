@@ -1,7 +1,23 @@
 <resources>
+    <!--Credenciales aplicativo-->
     <string name="app_name">GA8-220501096-AA2-EV01</string>
     <string name="developer">Deivi laiseca</string>
     <string name="by">Desarrollado por:</string>
     <string name="version">Versión 1.0.0</string>
     <string name="button">Versión 1.0.0</string>
+    <!--login-->
+    <string name="login">Iniciar sesión</string>
+    <string name="labelUser">Usuario</string>
+    <string name="textUser">Ingrese su usuario</string>
+    <string name="labelPass">Contraseña</string>
+    <string name="textPass">Ingrese su contraseña</string>
+    <string name="buttonLogin">Ingresar</string>
+    <string name="labelCreate">¿No tienes una cuenta? Registrate</string>
+    <!--Register-->
+    <string name="Register">Registrar usuario</string>
+    <string name="textUserRegister">Ingrese su usuario</string>
+    <string name="textPassRegister">Ingrese su contraseña</string>
+    <string name="buttonRegister">Registrar</string>
+    <string name="labelLogin">¿Ya tienes una cuenta? Inicia sesión</string>
+
 </resources>

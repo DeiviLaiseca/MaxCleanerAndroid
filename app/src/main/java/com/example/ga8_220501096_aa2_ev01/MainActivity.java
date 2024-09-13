@@ -1,6 +1,8 @@
 package com.example.ga8_220501096_aa2_ev01;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
@@ -26,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+                finish();
+            }
+        },5000);
 
         button = (Button) findViewById(R.id.button);
 
